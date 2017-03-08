@@ -1,0 +1,35 @@
+{
+  "name": "app-download",
+  "version": "1.0.0",
+  "description": "ipa,apk download",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SheldonLu/app-download.git"
+  },
+  "keywords": [
+    "ipa",
+    "apk"
+  ],
+  "author": "SheldonLu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SheldonLu/app-download/issues"
+  },
+  "homepage": "https://github.com/SheldonLu/app-download#readme",
+  "dependencies": {
+    "antd": "^2.8.0",
+    "babel-core": "^6.23.1",
+    "concurrency-logger": "^2.0.1",
+    "koa": "^2.0.1",
+    "koa-react-router": "^1.1.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-jsx": "^1.0.0",
+    "react-router": "^3.0.2"
+  }
+}
