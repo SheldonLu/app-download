@@ -10,6 +10,9 @@ class ButtonSize extends React.Component {
     console.log(1)
     this.setState({ size: e.target.value });
   }
+  onButtonClick = (e) => {
+    window.location.href = "/a";
+  }
 
   render() {
     const size = this.state.size;
@@ -29,7 +32,7 @@ class ButtonSize extends React.Component {
           <Button type="primary">
             <Icon type="left" />Backward
           </Button>
-          <Button type="primary">
+          <Button type="primary" onClick={this.onButtonClick}>
             Forward<Icon type="right" />
           </Button>
         </Button.Group>
